@@ -53,10 +53,10 @@ class Layer {
 }
 
 const layer1 = new Layer(backgroundlayer1, 0.2);
-const layer2 = new Layer(backgroundlayer2, 0.2);
-const layer3 = new Layer(backgroundlayer3, 0.4);
-const layer4 = new Layer(backgroundlayer4, 0.65);
-const layer5 = new Layer(backgroundlayer5, 0.85);
+const layer2 = new Layer(backgroundlayer2, 0.4);
+const layer3 = new Layer(backgroundlayer3, 0.6);
+const layer4 = new Layer(backgroundlayer4, 0.8);
+const layer5 = new Layer(backgroundlayer5, 0.99);
 const gameObjects = [layer1, layer2, layer3, layer4, layer5];
 
 function animate() {
